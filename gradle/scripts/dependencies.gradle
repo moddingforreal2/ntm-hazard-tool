@@ -56,6 +56,10 @@ dependencies {
     // Example - CurseMaven dependencies:
     // 'curse.maven:had-enough-items-557549:4543375' << had-enough-items = project slug, 557549 = project id, 4543375 = file id
     // Full documentation: https://cursemaven.com/
+    implementation 'curse.maven:hbm-nuclear-tech-mod-community-edition-1312314:8873889'
+
+    runtimeOnly 'curse.maven:ctm-267602:2915363'
+    runtimeOnly 'curse.maven:had-enough-items-557549:9109292'
 
     // Example - Modrinth dependencies:
     // 'maven.modrinth:jei:4.16.1.1000' << jei = project name, 4.16.1.1000 = file version
